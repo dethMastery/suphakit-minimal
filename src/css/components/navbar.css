@@ -1,0 +1,42 @@
+#navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  display: flex;
+
+  border: 2px solid var(--text);
+}
+
+#navbar .left, #navbar .right {
+  width: 100%;
+  padding: 0 1rem;
+
+  display: flex;
+  gap: 1rem;
+}
+
+#navbar .right {
+  flex-grow: 1;
+
+  justify-content: end;
+  align-items: center;
+}
+
+#navbar a:hover {
+  opacity: .6;
+}
+
+#navbar button:hover {
+  opacity: .6;
+  cursor: pointer;
+}
+
+#navbar button, #navbar a {
+  background: transparent;
+  border: 0;
+  font-size: 15px;
+  text-decoration: underline;
+  color: var(--link);
+}

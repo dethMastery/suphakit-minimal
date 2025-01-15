@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Reddit+Sans:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+/* Color Scheme */
+@import url(/src/css/scheme.css);
+
+@import url(/src/css/components/navbar.css);
+
+@import url(/src/css/components/parts/heading.css);
+@import url(/src/css/components/parts/user.css);
+@import url(/src/css/components/parts/tech.css);
+
+* {
+  font-family: 'Reddit Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+  transition: all .3s;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+a {
+  color: var(--link);
+}
+
+#app {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container {
+  padding: .5rem 0;
+}
+
+.container .container-content {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
