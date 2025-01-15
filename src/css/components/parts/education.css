@@ -1,0 +1,15 @@
+#education h1 {
+  padding-bottom: .5rem;
+}
+
+#education .container-content {
+  margin-left: 1rem;
+}
+
+#education .container-content p{
+  margin-left: .5rem;
+}
+
+#education .container-content p.year {
+  opacity: .6;
+}

@@ -7,6 +7,7 @@
 
 @import url(/src/css/components/parts/heading.css);
 @import url(/src/css/components/parts/user.css);
+@import url(/src/css/components/parts/education.css);
 @import url(/src/css/components/parts/tech.css);
 
 * {
