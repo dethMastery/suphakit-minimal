@@ -1,0 +1,41 @@
+#works #user-works {
+  margin-left: 1rem;
+} 
+
+#works #user-works a {
+  color: var(--text) !important;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  margin: .5rem 0;
+}
+
+#works #user-works a .work-name {
+  text-decoration: underline;
+}
+
+#works #user-works a .work-desp {
+  margin-left: .5rem;
+}
+
+#works #user-works a .work-lang-container {
+  display: flex;
+  flex-direction: row;
+  gap: .5rem;
+  padding: .5rem 0;
+}
+
+#works #user-works a .work-lang-container .works-lang-badge {
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid var(--text);
+}
+
+#works #user-works a:hover {
+  opacity: 1 !important;
+}
+
+#works #user-works a:hover .work-name {
+  text-decoration: none;
+  opacity: .6;
+}

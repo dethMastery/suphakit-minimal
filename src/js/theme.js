@@ -1,8 +1,9 @@
 if (
-  localStorage.getItem(isDark) != undefined &&
+  localStorage.getItem("isDark") != undefined &&
   Boolean(localStorage.getItem("isDark"))
 ) {
   document.body.classList.toggle("dark");
+  textChange();
 }
 
 function themeChange() {
