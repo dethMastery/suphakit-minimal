@@ -1,0 +1,33 @@
+#user-contacts {
+  width: fit-content;
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.contacts-container {
+  display: block;
+  width: fit-content;
+  text-decoration: none;
+  color: var(--text);
+}
+
+.contacts-container p:nth-child(2) {
+  text-decoration: underline;
+  margin-left: .5rem;
+  font-size: 24px;
+}
+
+.contacts-container:hover {
+  opacity: 1;
+}
+
+.contacts-container:hover p:nth-child(1) {
+  opacity: 1 !important;
+}
+
+.contacts-container:hover p:nth-child(2) {
+  text-decoration: none;
+  opacity: .6;
+}

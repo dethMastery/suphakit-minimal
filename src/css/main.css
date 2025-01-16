@@ -10,6 +10,7 @@
 @import url(/src/css/components/parts/education.css);
 @import url(/src/css/components/parts/tech.css);
 @import url(/src/css/components/parts/works.css);
+@import url(/src/css/components/parts/contact.css);
 
 * {
   font-family: 'Reddit Sans', sans-serif;
