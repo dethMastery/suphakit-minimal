@@ -1,0 +1,62 @@
+#footer {
+  width: 80%;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+#footer .footer-img {
+  width: 100%;
+  height: 15dvh;
+  background: url(/src/img/lain.gif);
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+#footer .footer-img .img-overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(.5rem);
+}
+
+#footer .footer-img .img-footer {
+  width: 100%;
+  height: 100%;
+  background: url(/src/img/lain.gif);
+  background-position: 50% 60% !important;
+  background-repeat: no-repeat !important;
+  background-size: 50% !important;
+}
+
+#footer .footer-text {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  padding-top: .5rem;
+}
+
+#footer .footer-text .lain {
+  font-size: 30px;
+}
+
+#footer .footer-text .text-box {
+  width: 100%;
+  display: flex;
+}
+
+#footer .footer-text .text-box p {
+  width: 100%;
+  text-align: left;
+}
+
+#footer .footer-text .text-box p:nth-child(2) {
+  text-align: end;
+}
+
+@media only screen and (max-width: 600px) {
+  #footer .footer-text .text-box {
+    flex-direction: column;
+    text-align: center;
+  } 
+}
