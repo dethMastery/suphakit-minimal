@@ -1,7 +1,5 @@
 const contactElement = document.querySelector("#user-contacts");
 
-console.log(contacts)
-
 const data = contacts.map((data) => {
   const valSplit = data.value.split('|')
   const value = valSplit[0]
