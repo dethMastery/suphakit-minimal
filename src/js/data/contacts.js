@@ -1,14 +1,20 @@
 const contactElement = document.querySelector("#user-contacts");
 
-for (let i = 0; i < contacts.length; i++) {
-  const template = `<a class="contacts-container" href="${contacts[i].value}" target="_blank">
+console.log(contacts)
+
+const data = contacts.map((data) => {
+  const valSplit = data.value.split('|')
+  const value = valSplit[0]
+  const text = valSplit[1]
+
+  return `<a class="contacts-container" href="${value}" target="_blank">
   <p class="contact-floor">
-    ${contacts[i].floor}
+    ${data.floor}
   </p>
   <p class="contact-link">
-    ${contacts[i].text}
+    ${text}
   </p>
-</a>`;
+</a>`
+}).join('')
 
-  contactElement.innerHTML += template;
-}
+contactElement.innerHTML = data
