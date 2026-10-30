@@ -1,54 +1,7 @@
-var mS = [
-  "Jan",
-  "Feb",
-  "Mar",
-  "Apr",
-  "May",
-  "Jun",
-  "Jul",
-  "Aug",
-  "Sep",
-  "Oct",
-  "Nov",
-  "Dec",
-];
-
-const userData = {
-  name: "Suphakit Pinyoworapot",
-  image: "https://suphakit.net/src/img/profile.webp",
-  subText: [
-    "Junior Front-End Developer",
-    "with kind of Full-Stack Web Developer Skills",
-  ],
-  desp: "Hi, I'm Joji, a 1st year IT student. I’m a kind of a guy who tried to do “everything” that I have some passion with it like “coding” and “music composing” and I would like a job that allows for personal and professional growth.",
-  details: [
-    {
-      floor: "Nickname",
-      value: "Joe (Known as Joji, Joseph)",
-    },
-    {
-      floor: "Birth Date",
-      value: "1024099200000",
-    },
-    {
-      floor: "Language",
-      value: "Thai (Native), English (Intermediate)",
-    },
-    {
-      floor: "Current Location",
-      value: "Siracha, Chonburi",
-    },
-    {
-      floor: "Interview Availability",
-      value: "true",
-    },
-  ],
-};
-
 const userImageElement = document.querySelector(
   "#user-data > .user-image-container > .user-image"
 );
-userImageElement.innerHTML = `<div class="img" style="background: url(${userData.image});"></div>`;
+userImageElement.innerHTML = `<div class="img" style="background: url(https://suphakit.net${userData.image});"></div>`;
 
 const userDataElement = document.querySelector("#user-data > .data-user");
 let detailElement = "";
